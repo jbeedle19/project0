@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <title>Search</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="advSearch.html">Advanced</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="imgSearch.html">Images</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="mx-auto text-center">
+            <img src="https://cdn.vox-cdn.com/thumbor/Ei4ydi9WDwJW-dpSW_QWMiVULNs=/0x0:2012x1341/1820x1213/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" 
+                alt="Google's Logo"
+                width="600px"
+            >
+        </div>
+        <div class="mx-auto mb-5 text-center">
+            <form action="https://google.com/search" method="get">
+                <div class="mb-3">
+                    <input class="rounded-pill w-50" type="text" name="q">
+                </div>
+                <div>
+                    <button class="btn btn-light" type="submit" value="Google Search">Google Search</button>
+                    <span class="mx-1"></span>
+                    <button class="btn btn-light" type="submit" name="btnI" value="I am Feeling Lucky">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
